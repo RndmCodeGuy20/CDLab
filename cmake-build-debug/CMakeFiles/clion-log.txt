@@ -1,0 +1,13 @@
+D:\JetBrains\ToolBox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/JetBrains/ToolBox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S D:\CDLab -B D:\CDLab\cmake-build-debug
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    Test/firstprog.c
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: CDLab
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
